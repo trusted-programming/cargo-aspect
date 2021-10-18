@@ -1,13 +1,5 @@
 # Aspect Oriented Programming (AOP) for Rust
 
-```
-Changchun Fan, Yijun Yu
-Central Software Institute & Trustworthiness Software Engineering
-2012 R&D Lab, Huawei Technologies, Co.
-```
-
-[TOC]
-
 ## The needs of AOP
 
 Aspect-oriented programming (AOP) is a programming paradigm that aims to increase modularity by allowing the separation of cross-cutting concerns. It does so by adding additional behavior to existing code--an advice-- instead of modifying the code itself, it separately specifies which code is modified via a \"pointcut\" specification. For example, "log all function calls when the function\'s name begins with \'set\'\". This allows behaviors that are not central to the business logic, such as logging, to be added to a program without cluttering the code that is core to the functionality.
